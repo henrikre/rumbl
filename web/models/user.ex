@@ -10,7 +10,7 @@ defmodule Rumbl.User do
     timestamps
   end
 
-  def changeset(model, params \\ :empty) do
+  def changeset(model, params \\ :invalid) do
     model
     |> cast(params, [:name, :username])
     |> validate_required([:name, :username])

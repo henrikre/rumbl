@@ -36,7 +36,7 @@ config :phoenix, :stacktrace_depth, 20
 # Configure your database
 config :rumbl, Rumbl.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "henrik.reponen",
+  username: "henrik",
   password: "",
   database: "rumbl_dev",
   hostname: "localhost",
